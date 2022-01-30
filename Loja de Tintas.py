@@ -1,0 +1,7 @@
+Tamanho = float(input('Informe o tamanho em metros quadradados da area a ser pintada:'))
+Latas = float((Tamanho/3) /18)
+Gastos = float(Latas*80)
+print(f'São necessarios {Tamanho/3} Litros')
+print(f'São necessarios {Latas} Latas ')
+print(f'São necessarios {Gastos} Reais')
+input('Pressione Enter para fechar o programa: ')
